@@ -2,10 +2,8 @@ body {
 	  background-image: url('background.jpg');
 	  text-align: center;
 	  font-family: Trebuchet MS; 
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-attachment: fixed;
 }
 
-div {
-	 background-color: #72717E;
-	 color: white;
-	 border: 10px solid #27262F;
-}	
