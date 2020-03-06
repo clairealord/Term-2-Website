@@ -106,23 +106,118 @@ li a:hover:not(.current) {
 		  background-color: #46457B;
 }
 
+div.beginningtext, div.modestext, div.positionstext {
+                   background-color: #72717E;
+	               color: white;
+	               border: 10px solid #27262F;
+	               padding: 10px;
+	               width: 500px;
+	               margin-left: auto;
+	               margin-right: auto;
+	               margin-top: 50px;
+                   width: 800px;
+}
+
+div.beginning, div.modes, div.positions {
+                               background-color: #72717E;
+					           color: white;
+							   border: 7px solid #27262F;
+							   padding: 7px;
+							   width: 250px;
+							   margin-left: auto;
+							   margin-right: auto;
+}
+
+div.gameplay {
+              background-color: #72717E;
+	          color: white;
+	          border: 10px solid #27262F;
+	          padding: 10px; 
+		      width: 200px;
+		      margin-left: auto;
+	          margin-right: auto;
+	          margin-top: 50px;
+
+}
+
+div.table {
+			background-color: #72717E;
+			border:			  10px solid #27262F;
+			padding: 		  20px;
+			width:            675px;	
+		}
+		
+		table {
+		background-color: #72717E;
+		}
+		
+		table, th, td {
+		    border-bottom: 1px solid black;
+			text-align: center;
+			
+		}
+		
+		table {
+		    border-collapse: collapse;
+			width: 400px;
+		}
+		
+		tr:nth-child(even) {
+		                    background-color: 31303B#;
+							color: white;
+		}
+		
+		tr:nth-child(odd) {
+		                   background-color: #4A467B;
+						   color: white;
+		}
+		
+		th, td {
+		    padding: 10px;
+		}
+		
+		td:hover {
+		          background-color: #383185;
+				  color: white;
+		}
+		
+		th {
+		    background-color: #59586A;
+			color: white;
+		}
+		
+		body {
+		      font-family: 'Oxanium', cursive;
+		}
+		
+li.nav {
+        
+}
+
+div.positionstext {
+                   margin-bottom: 100px;
+}		
 
 </style>
 </head>
 
 <body>
 
+<link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet"> 
+
 <div class="container">	
 			<ul>
-			  <li><a href="rainbow6home.html">Home</a></li>
-			  <li><a class="current" href="rainbow6gameplay.html">Gameplay</a></li>
-			  <li><a href="rainbow6personal.html">Personal</a></li>
-			  <li><a href="rainbow6gallery.html">Gallery</a></li>
+			  <li class="nav"><a href="rainbow6home.html">Home</a></li>
+			  <li class="nav"><a class="current" href="rainbow6gameplay.html">Gameplay</a></li>
+			  <li class="nav"><a href="rainbow6personal.html">Personal</a></li>
+			  <li class="nav"><a href="rainbow6gallery.html">Gallery</a></li>
 			</ul>
 
 </div>
 
 <img src="rainbowlogo.png" class="logo">
+
+<div class="gameplay"><h1>Gameplay</h1></div>
 
 <div class="beginningtext">
 <div class="beginning">
@@ -158,6 +253,32 @@ li a:hover:not(.current) {
    <img src="weapons.jpg" class="weapons">
    
 </div>
+
+
+	    <table>
+		<tr>
+		   <th>Name</th> <th>Position</th> 	<th>Year</th> 	<th>Team/Squad</th> 	<th>Renown</th> 	<th>Bundle</th> 	<th>Catchphrase</th>
+		</tr>
+		<tr>
+		   <td>Sledge</td> 	<td>Attack</td> 	<td>Beginning Year</td> 	<td>S.A.S.</td> <td>0</td> <td>None</td> <td>"Coming through!"</td>
+		</tr>
+		<tr>
+		   <td>Dokkaebi</td> 	<td>Attack</td> 	<td>Year 2</td> 	<td>707th SMB</td> 	<td>15,000</td> 	<td>Year 2 Bundle</td> 	<td>"Your phone is ringing. Here, let me get that for you."</td>
+		</tr>
+		<tr>
+		   <td>Alibi</td> 	<td>Defense</td> 	<td>Year 3</td> 	<td>G.I.S</td> 	<td>20,000</td> 	<td>None</td> 	<td>"Illusions are fatal. If you waver, you're mine. If you pick wrong, you're mine."</td>
+		</tr>
+		<tr>
+		   <td>Frost</td> 	<td>Defense</td> 	<td>Year 1</td> 	<td>J.T.F. 2</td> 	<td>10,000</td> 	<td>Year 1 Bundle</td> 	<td>"There are two things the human body needs in a survival situation: Water and hope."</td>
+		</tr>
+		<tr>
+		   <td>Iana</td> 	<td>Attack</td> 	<td>Year 5</td> 	<td>R.E.U.</td> 	<td>n/a</td> 	<td>n/a</td> 	<td>"All systems are complementary, if you know how to connect them."</td>
+		</tr>
+		<tr>
+		   <td>Kapkan</td>	<td>Defense</td> 	<td>Beginning Year</td> <td>Spetsnaz</td> 	<td>0</td> 	<td>None</td> 	<td>n/a</td> 
+		</tr>
+        </table>		
+	
 </body>
 
 </html>
